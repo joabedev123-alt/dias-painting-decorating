@@ -27,13 +27,35 @@ export const PROJECTS_DATA: Project[] = [
       'Plaster crack repairs and smooth sanding',
       'Protective floor covering and spotless cleanup'
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop',
-    beforeImageUrl: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=1000&auto=format&fit=crop',
-    afterImageUrl: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1000&auto=format&fit=crop',
+    imageUrl: '/Fotos 02/WhatsApp Image 2026-08-05 at 19.18.32.jpeg',
+    beforeImageUrl: '/Fotos 02/WhatsApp Image 2026-08-05 at 19.19.43.jpeg',
+    afterImageUrl: '/Fotos 02/WhatsApp Image 2026-08-05 at 19.18.32.jpeg',
     gallery: [
-      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1200&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=1200&auto=format&fit=crop'
+      '/Fotos 02/WhatsApp Image 2026-08-05 at 19.18.32.jpeg',
+      '/Fotos 02/WhatsApp Image 2026-08-05 at 19.18.33.jpeg',
+      '/Fotos 02/WhatsApp Image 2026-08-05 at 19.18.34.jpeg'
+    ],
+    isFeatured: true
+  },
+  {
+    id: 'luxury-wallpaper-installation',
+    title: 'Luxury Wallpaper Hanging & Feature Wall',
+    category: 'Interior',
+    location: 'Chelsea, London',
+    summary: 'Bespoke wallpaper hanging with precise pattern matching and surface prep.',
+    description: 'High-end wallpaper application for a luxury residence feature wall, involving meticulous surface lining, wall priming, and exact edge matching.',
+    workDone: [
+      'Removal of existing wall coverings and wall priming',
+      'Lining paper application for ultra-smooth foundation',
+      'Precision pattern alignment and vertical join smoothing',
+      'Clean border trimming around light switches and sockets'
+    ],
+    imageUrl: '/Fotos 01/WhatsApp Image 2026-08-05 at 19.01.13.jpeg',
+    gallery: [
+      '/Fotos 01/WhatsApp Image 2026-08-05 at 19.01.13.jpeg',
+      '/Fotos 01/WhatsApp Image 2026-08-05 at 19.01.14 (1).jpeg',
+      '/Fotos 01/WhatsApp Image 2026-08-05 at 19.01.14 (2).jpeg',
+      '/Fotos 01/WhatsApp Image 2026-08-05 at 19.01.56.jpeg'
     ],
     isFeatured: true
   },
@@ -50,12 +72,12 @@ export const PROJECTS_DATA: Project[] = [
       'Fascias, soffits, and timber window frames painting',
       'Durable weather-shield masonry paint application'
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1200&auto=format&fit=crop',
-    beforeImageUrl: 'https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=1000&auto=format&fit=crop',
-    afterImageUrl: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1000&auto=format&fit=crop',
+    imageUrl: '/Fotos 02/WhatsApp Image 2026-08-05 at 19.19.40.jpeg',
+    beforeImageUrl: '/Fotos 02/WhatsApp Image 2026-08-05 at 19.19.41.jpeg',
+    afterImageUrl: '/Fotos 02/WhatsApp Image 2026-08-05 at 19.19.40.jpeg',
     gallery: [
-      'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1200&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=1200&auto=format&fit=crop'
+      '/Fotos 02/WhatsApp Image 2026-08-05 at 19.19.40.jpeg',
+      '/Fotos 02/WhatsApp Image 2026-08-05 at 19.19.41.jpeg'
     ],
     isFeatured: true
   },
@@ -72,10 +94,31 @@ export const PROJECTS_DATA: Project[] = [
       'Baseboard and internal door repainting',
       'Complete furniture masking and protection'
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1200&auto=format&fit=crop',
+    imageUrl: '/Fotos 02/WhatsApp Image 2026-08-05 at 19.19.56.jpeg',
     gallery: [
-      'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1200&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=1200&auto=format&fit=crop'
+      '/Fotos 02/WhatsApp Image 2026-08-05 at 19.19.56.jpeg',
+      '/Fotos 02/WhatsApp Image 2026-08-05 at 19.18.43.jpeg',
+      '/Fotos 02/WhatsApp Image 2026-08-05 at 19.18.42.jpeg'
+    ],
+    isFeatured: true
+  },
+  {
+    id: 'designer-wallpapering-residence',
+    title: 'Patterned Wallpaper & Decorating',
+    category: 'Residential',
+    location: 'Mayfair, London',
+    summary: 'Elegant patterned wallpaper installation across dining and living areas.',
+    description: 'Exquisite papering for a Mayfair townhouse dining room, featuring detailed corner cutting, non-stretch paste application, and seamless finish.',
+    workDone: [
+      'Custom wall paste application and soak timing',
+      'Seam rolling for invisible join lines',
+      'Detailed trimming around architraves and picture rails'
+    ],
+    imageUrl: '/Fotos 01/WhatsApp Image 2026-08-05 at 19.01.14 (3).jpeg',
+    gallery: [
+      '/Fotos 01/WhatsApp Image 2026-08-05 at 19.01.14 (3).jpeg',
+      '/Fotos 01/WhatsApp Image 2026-08-05 at 19.03.04.jpeg',
+      '/Fotos 01/WhatsApp Image 2026-08-05 at 19.03.04 (1).jpeg'
     ],
     isFeatured: true
   },
@@ -92,10 +135,11 @@ export const PROJECTS_DATA: Project[] = [
       'High-traffic wall coating application',
       'Woodwork trim touch-ups'
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1200&auto=format&fit=crop',
+    imageUrl: '/Fotos 02/WhatsApp Image 2026-08-05 at 19.19.50.jpeg',
     gallery: [
-      'https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1200&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=1200&auto=format&fit=crop'
+      '/Fotos 02/WhatsApp Image 2026-08-05 at 19.19.50.jpeg',
+      '/Fotos 02/WhatsApp Image 2026-08-05 at 19.19.37.jpeg',
+      '/Fotos 02/WhatsApp Image 2026-08-05 at 19.19.37 (1).jpeg'
     ],
     isFeatured: true
   },
@@ -103,7 +147,7 @@ export const PROJECTS_DATA: Project[] = [
     id: 'chelsea-residential-renovation',
     title: 'Period Home Surface Restoration',
     category: 'Renovation',
-    location: 'Chelsea, London',
+    location: 'Fulham, London',
     summary: 'Meticulous plaster repair, sanding, and decorative finishing.',
     description: 'Substantial surface preparation and complete re-decoration of damaged walls in a traditional Chelsea family home.',
     workDone: [
@@ -112,11 +156,11 @@ export const PROJECTS_DATA: Project[] = [
       'Multi-coat luxury wall painting',
       'Decorative dado rail and trim painting'
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1200&auto=format&fit=crop',
+    imageUrl: '/Fotos 02/WhatsApp Image 2026-08-05 at 19.18.41.jpeg',
     gallery: [
-      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1200&auto=format&fit=crop'
-    ],
-    isFeatured: true
+      '/Fotos 02/WhatsApp Image 2026-08-05 at 19.18.41.jpeg',
+      '/Fotos 02/WhatsApp Image 2026-08-05 at 19.18.41 (1).jpeg'
+    ]
   },
   {
     id: 'islington-flat-refresh',
@@ -131,112 +175,29 @@ export const PROJECTS_DATA: Project[] = [
       'Bedroom feature wall application',
       'Window sill and surround coating'
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=1200&auto=format&fit=crop',
+    imageUrl: '/Fotos 02/WhatsApp Image 2026-08-05 at 19.19.39.jpeg',
     gallery: [
-      'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=1200&auto=format&fit=crop'
-    ],
-    isFeatured: true
-  },
-  {
-    id: 'clapham-kitchen-dining-decor',
-    title: 'Kitchen & Dining Area Refresh',
-    category: 'Interior',
-    location: 'Clapham, London',
-    summary: 'Moisture-resistant kitchen painting and dining space decoration.',
-    description: 'Updating a modern extension with anti-mould kitchen paints and warm neutral tones for the dining quarter.',
-    workDone: [
-      'Anti-condensation paint for cooking areas',
-      'Ceiling stain sealing and recoating',
-      'Skirting board and radiator cover painting'
-    ],
-    imageUrl: 'https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=1200&auto=format&fit=crop',
-    gallery: [
-      'https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=1200&auto=format&fit=crop'
+      '/Fotos 02/WhatsApp Image 2026-08-05 at 19.19.39.jpeg',
+      '/Fotos 02/WhatsApp Image 2026-08-05 at 19.19.39 (1).jpeg'
     ]
   },
   {
-    id: 'fulham-exterior-facade',
-    title: 'Edwardian Facade Renovation',
-    category: 'Exterior',
-    location: 'Fulham, London',
-    summary: 'Front door restoration, bay window timber treatment, and brickwork seal.',
-    description: 'Refreshing kerb appeal with dark navy gloss front door painting and pristine white window trim coatings.',
-    workDone: [
-      'Front door timber sanding and high-gloss enamel coat',
-      'Bay window timber filler and satin finish',
-      'Threshold step painting'
-    ],
-    imageUrl: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?q=80&w=1200&auto=format&fit=crop',
-    gallery: [
-      'https://images.unsplash.com/photo-1600585154526-990dced4db0d?q=80&w=1200&auto=format&fit=crop'
-    ]
-  },
-  {
-    id: 'greenwich-commercial-retail',
-    title: 'Retail Shopfront & Display Room',
-    category: 'Commercial',
-    location: 'Greenwich, London',
-    summary: 'Commercial shop interior painting with durable high-traffic finishes.',
-    description: 'Rebranding an independent Greenwich retail store with clean modern walls and quick drying low-VOC paints.',
-    workDone: [
-      'Fast turnaround weekend application',
-      'Low-odour non-toxic eco paint application',
-      'Display shelving unit painted'
-    ],
-    imageUrl: 'https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?q=80&w=1200&auto=format&fit=crop',
-    gallery: [
-      'https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?q=80&w=1200&auto=format&fit=crop'
-    ]
-  },
-  {
-    id: 'notting-hill-bedroom-suite',
-    title: 'Master Bedroom Suite Decorating',
+    id: 'textured-wallpaper-bedroom',
+    title: 'Textured Wallpaper & Bedroom Decor',
     category: 'Interior',
     location: 'Notting Hill, London',
-    summary: 'Tranquil luxury palette decoration with subtle accent moulding.',
-    description: 'Creating a calming sanctuary with soft sage undertones, immaculate trim work, and seamless ceiling transitions.',
+    summary: 'Luxury textured wallpaper hanging for master bedroom suite.',
+    description: 'Delicate installation of woven wallcoverings creating a serene and sophisticated master suite retreat.',
     workDone: [
-      'Farrow & Ball colour scheme implementation',
-      'Crown moulding detail highlight',
-      'Built-in wardrobe spray/brush painting'
+      'Precise wall smoothing and sealing',
+      'Specialist paste application for heavyweight wallpaper',
+      'Seamless corner wraps and clean outlet cutouts'
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1616594039964-ae9021a400a0?q=80&w=1200&auto=format&fit=crop',
+    imageUrl: '/Fotos 01/WhatsApp Image 2026-08-05 at 19.05.48 (1).jpeg',
     gallery: [
-      'https://images.unsplash.com/photo-1616594039964-ae9021a400a0?q=80&w=1200&auto=format&fit=crop'
-    ]
-  },
-  {
-    id: 'wandsworth-full-renovation',
-    title: 'Entire Property General Renovation',
-    category: 'Renovation',
-    location: 'Wandsworth, London',
-    summary: 'Pre-tenancy property restoration and thorough surface repair.',
-    description: 'Full house preparation, wall patching, ceiling stain treatments, and crisp white repaint for a residential landlord.',
-    workDone: [
-      'Water damage repair and blocking primer',
-      'Whole property wall filling and sanding',
-      'Ceiling recoats and door framework'
-    ],
-    imageUrl: 'https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?q=80&w=1200&auto=format&fit=crop',
-    gallery: [
-      'https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?q=80&w=1200&auto=format&fit=crop'
-    ]
-  },
-  {
-    id: 'chiswick-family-residence',
-    title: 'Family Residence Interior Decorating',
-    category: 'Residential',
-    location: 'Chiswick, London',
-    summary: 'Kid-friendly, scrubbable wall paint for high-traffic corridors.',
-    description: 'Refreshing hallways, children rooms, and family lounge with durable eggshell finishes designed for long-lasting beauty.',
-    workDone: [
-      'Scrubbable matte paint application',
-      'Wainscoting and panelling painting',
-      'Stairwell high-ceiling painting'
-    ],
-    imageUrl: 'https://images.unsplash.com/photo-1600573472550-8090b5e0745e?q=80&w=1200&auto=format&fit=crop',
-    gallery: [
-      'https://images.unsplash.com/photo-1600573472550-8090b5e0745e?q=80&w=1200&auto=format&fit=crop'
+      '/Fotos 01/WhatsApp Image 2026-08-05 at 19.05.48 (1).jpeg',
+      '/Fotos 01/WhatsApp Image 2026-08-05 at 19.05.48 (2).jpeg',
+      '/Fotos 01/WhatsApp Image 2026-08-05 at 19.05.49.jpeg'
     ]
   }
 ];

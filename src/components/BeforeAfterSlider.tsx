@@ -34,10 +34,23 @@ export const BeforeAfterSlider: React.FC<BeforeAfterSliderProps> = ({
     setSliderPosition(percentage);
   }, []);
 
+  const handleTouchStart = useCallback((e: React.TouchEvent) => {
+    setIsDragging(true);
+    if (e.touches.length > 0) {
+      handleMove(e.touches[0].clientX);
+    }
+  }, [handleMove]);
+
   const handleTouchMove = useCallback((e: React.TouchEvent) => {
-    if (!isDragging) return;
-    handleMove(e.touches[0].clientX);
-  }, [isDragging, handleMove]);
+    if (e.touches.length > 0) {
+      handleMove(e.touches[0].clientX);
+    }
+  }, [handleMove]);
+
+  const handleMouseDown = useCallback((e: React.MouseEvent) => {
+    setIsDragging(true);
+    handleMove(e.clientX);
+  }, [handleMove]);
 
   const handleMouseMove = useCallback((e: React.MouseEvent) => {
     if (!isDragging) return;
@@ -55,14 +68,14 @@ export const BeforeAfterSlider: React.FC<BeforeAfterSliderProps> = ({
 
       <div 
         ref={containerRef}
-        onMouseDown={() => setIsDragging(true)}
+        onMouseDown={handleMouseDown}
         onMouseUp={() => setIsDragging(false)}
         onMouseLeave={() => setIsDragging(false)}
         onMouseMove={handleMouseMove}
-        onTouchStart={() => setIsDragging(true)}
+        onTouchStart={handleTouchStart}
         onTouchEnd={() => setIsDragging(false)}
         onTouchMove={handleTouchMove}
-        className="relative w-full h-[350px] sm:h-[450px] lg:h-[500px] overflow-hidden rounded-md shadow-2xl select-none cursor-ew-resize border border-brand-border"
+        className="relative w-full h-[320px] sm:h-[450px] lg:h-[500px] overflow-hidden rounded-md shadow-2xl select-none cursor-ew-resize border border-brand-border touch-none"
       >
         {/* After Image (Background layer) */}
         <img 
@@ -70,7 +83,7 @@ export const BeforeAfterSlider: React.FC<BeforeAfterSliderProps> = ({
           alt="After painting and decorating finish" 
           className="absolute inset-0 w-full h-full object-cover"
         />
-        <div className="absolute top-4 right-4 bg-brand-dark/80 text-white text-xs font-semibold px-3 py-1.5 rounded backdrop-blur-md z-10 border border-white/20">
+        <div className="absolute top-3 right-3 sm:top-4 sm:right-4 bg-brand-dark/80 text-white text-[11px] sm:text-xs font-semibold px-2.5 py-1 sm:px-3 sm:py-1.5 rounded backdrop-blur-md z-10 border border-white/20">
           {afterLabel}
         </div>
 
@@ -85,7 +98,7 @@ export const BeforeAfterSlider: React.FC<BeforeAfterSliderProps> = ({
             className="absolute inset-0 w-full h-full object-cover max-w-none"
             style={{ width: containerRef.current ? `${containerRef.current.clientWidth}px` : '100%' }}
           />
-          <div className="absolute top-4 left-4 bg-amber-900/80 text-amber-100 text-xs font-semibold px-3 py-1.5 rounded backdrop-blur-md z-10 border border-amber-500/30">
+          <div className="absolute top-3 left-3 sm:top-4 sm:left-4 bg-amber-900/80 text-amber-100 text-[11px] sm:text-xs font-semibold px-2.5 py-1 sm:px-3 sm:py-1.5 rounded backdrop-blur-md z-10 border border-amber-500/30">
             {beforeLabel}
           </div>
         </div>

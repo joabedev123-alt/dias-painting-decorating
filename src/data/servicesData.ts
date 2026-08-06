@@ -22,7 +22,22 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Feature wall creation with precise colour blocking',
       'Stain-blocking for ceiling water marks'
     ],
-    image: 'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=1200&auto=format&fit=crop'
+    image: '/Fotos 02/WhatsApp Image 2026-08-05 at 19.18.32.jpeg'
+  },
+  {
+    id: 'wallpapering',
+    title: 'Wallpapering & Wall Coverings',
+    shortDesc: 'Expert installation of luxury wallpaper, patterned wallcoverings and feature walls.',
+    fullDesc: 'Add elegance, texture, and personality to your interior spaces with professional wallpaper hanging. From intricate pattern matching to delicate fabric and luxury vinyl wallcoverings, we ensure seamless seams, smooth alignment, and immaculate surface preparation.',
+    iconName: 'Sparkles',
+    features: [
+      'Professional hanging of patterned & luxury wallpapers',
+      'Precise pattern matching & seamless vertical joins',
+      'Surface lining paper application & wall smoothing',
+      'Bespoke feature wall installations for homes & offices',
+      'Removal of old wallpaper & wall plaster priming'
+    ],
+    image: '/Fotos 01/WhatsApp Image 2026-08-05 at 19.01.13.jpeg'
   },
   {
     id: 'exterior-painting',
@@ -37,7 +52,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Fascia, soffit, & guttering painting',
       'Exterior crack sealing & surface priming'
     ],
-    image: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1200&auto=format&fit=crop'
+    image: '/Fotos 02/WhatsApp Image 2026-08-05 at 19.19.40.jpeg'
   },
   {
     id: 'residential-decorating',
@@ -52,7 +67,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Bedroom, living room, & dining room refurbishing',
       'Protection of furniture, carpets, & personal belongings'
     ],
-    image: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1200&auto=format&fit=crop'
+    image: '/Fotos 02/WhatsApp Image 2026-08-05 at 19.18.43.jpeg'
   },
   {
     id: 'commercial-decorating',
@@ -67,7 +82,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Landlord & property manager pre-tenancy refreshes',
       'Clean & compliant working environment'
     ],
-    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1200&auto=format&fit=crop'
+    image: '/Fotos 02/WhatsApp Image 2026-08-05 at 19.19.37.jpeg'
   },
   {
     id: 'surface-preparation',
@@ -82,7 +97,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Old loose paint scraping & smoothing',
       'Dustless sanding methods for clean indoor air'
     ],
-    image: 'https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?q=80&w=1200&auto=format&fit=crop'
+    image: '/Fotos 02/WhatsApp Image 2026-08-05 at 19.19.43.jpeg'
   },
   {
     id: 'general-renovations',
@@ -97,6 +112,6 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Pre-sale & end-of-tenancy property restoration',
       'Bespoke project assessment upon request'
     ],
-    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop'
+    image: '/Fotos 02/WhatsApp Image 2026-08-05 at 19.18.41.jpeg'
   }
 ];

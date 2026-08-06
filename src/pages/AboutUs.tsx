@@ -34,18 +34,21 @@ export const AboutUs: React.FC = () => {
                 Our Story & Commitment
               </span>
               <h2 className="font-serif text-3xl sm:text-4xl font-bold text-brand-dark mb-6 leading-tight">
-                Dedicated to Craftsmanship & Attention to Detail
+                A Family Painting Business with Over 25 Years of Experience
               </h2>
 
               <div className="space-y-4 text-gray-600 text-base leading-relaxed">
                 <p>
-                  Dias Painting & Decorating was created to help homeowners and businesses improve their spaces through professional painting, decorating and renovation services.
+                  With over 25 years of experience, we are a family-owned painting business dedicated to delivering high-quality workmanship and exceptional customer service.
                 </p>
                 <p>
-                  Every project is approached individually. We take time to understand the property, the desired result and the preparation required before beginning the work.
+                  We specialize in residential and commercial painting, providing professional interior and exterior painting services with attention to every detail. Our goal is to enhance and protect your property while ensuring a flawless finish that lasts.
                 </p>
                 <p>
-                  Our priority is to provide clear communication, an organised process and a professional finish that enhances the appearance and value of each space across London.
+                  Built on honesty, reliability, and family values, we take pride in treating every project as if it were our own. From the first consultation to the final coat of paint, we are committed to exceeding your expectations and creating beautiful, long-lasting results.
+                </p>
+                <p>
+                  Your satisfaction is our priority, and our reputation has been built one happy customer at a time.
                 </p>
               </div>
             </div>
@@ -53,8 +56,8 @@ export const AboutUs: React.FC = () => {
             <div className="lg:col-span-6">
               <div className="relative rounded-md overflow-hidden shadow-2xl border border-brand-border">
                 <img 
-                  src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=1200&auto=format&fit=crop" 
-                  alt="Professional painter at work" 
+                  src="/Fotos 02/WhatsApp Image 2026-08-05 at 19.19.37.jpeg" 
+                  alt="Dias Painting & Decorating professional work" 
                   className="w-full h-[450px] object-cover"
                 />
               </div>

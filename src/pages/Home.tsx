@@ -31,12 +31,12 @@ export const Home: React.FC = () => {
         {/* Background Hero Image with Dark Gradient Overlay */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1562259949-e8e7689d7828?q=80&w=1920&auto=format&fit=crop" 
+            src="/Fotos 02/WhatsApp Image 2026-08-05 at 19.19.50.jpeg" 
             alt="Professional painting and decorating in London" 
-            className="w-full h-full object-cover object-center opacity-30 scale-105 transition-transform duration-1000"
+            className="w-full h-full object-cover object-center opacity-55 scale-105 transition-transform duration-1000"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-brand-dark via-brand-dark/90 to-brand-dark/40" />
-          <div className="absolute inset-0 bg-radial-gradient from-transparent via-brand-dark/50 to-brand-dark" />
+          <div className="absolute inset-0 bg-gradient-to-r from-brand-dark/85 via-brand-dark/60 to-brand-dark/25" />
+          <div className="absolute inset-0 bg-radial-gradient from-transparent via-brand-dark/30 to-brand-dark/80" />
         </div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
@@ -146,7 +146,7 @@ export const Home: React.FC = () => {
             <div className="lg:col-span-6 relative">
               <div className="relative z-10 rounded-md overflow-hidden shadow-2xl border border-brand-border">
                 <img 
-                  src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1000&auto=format&fit=crop" 
+                  src="/Fotos 02/WhatsApp Image 2026-08-05 at 19.18.43.jpeg" 
                   alt="Beautiful interior decorating in London" 
                   className="w-full h-[400px] object-cover"
                 />
@@ -155,8 +155,8 @@ export const Home: React.FC = () => {
               {/* Secondary Overlapping Image */}
               <div className="hidden sm:block absolute -bottom-8 -right-8 z-20 w-3/5 rounded-md overflow-hidden shadow-2xl border-4 border-white">
                 <img 
-                  src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=800&auto=format&fit=crop" 
-                  alt="Painter applying coat carefully" 
+                  src="/Fotos 01/WhatsApp Image 2026-08-05 at 19.01.13.jpeg" 
+                  alt="Luxury wallpaper installation detail" 
                   className="w-full h-[240px] object-cover"
                 />
               </div>
@@ -526,8 +526,8 @@ export const Home: React.FC = () => {
       <section className="py-20 bg-white border-y border-brand-border">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <BeforeAfterSlider 
-            beforeImage="https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=1200&auto=format&fit=crop"
-            afterImage="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop"
+            beforeImage="/Fotos 02/WhatsApp Image 2026-08-05 at 19.19.43.jpeg"
+            afterImage="/Fotos 02/WhatsApp Image 2026-08-05 at 19.19.45.jpeg"
             title="Transformation in Detail"
             subtitle="Slide to experience the difference expert surface preparation and high-quality painting makes."
             isPlaceholderDemo={true}

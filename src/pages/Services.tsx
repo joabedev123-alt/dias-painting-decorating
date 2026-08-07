@@ -2,9 +2,9 @@ import React, { useEffect } from 'react';
 import { useLocation, Link } from 'react-router-dom';
 import { PageHero } from '../components/PageHero';
 import { SERVICES_DATA } from '../data/servicesData';
+import { WhatsAppIcon } from '../components/WhatsAppIcon';
 import { 
   CheckCircle2, 
-  MessageCircle, 
   ArrowRight, 
   Paintbrush, 
   Home as HomeIcon, 
@@ -110,7 +110,7 @@ export const Services: React.FC = () => {
                         rel="noopener noreferrer"
                         className="text-xs sm:text-sm font-semibold text-emerald-700 hover:text-emerald-800 flex items-center gap-1.5"
                       >
-                        <MessageCircle className="w-4 h-4" />
+                        <WhatsAppIcon className="w-4 h-4 fill-current" />
                         <span>Discuss on WhatsApp</span>
                       </a>
                     </div>
@@ -156,7 +156,7 @@ export const Services: React.FC = () => {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-3.5 rounded font-semibold text-sm transition-all shadow-lg"
           >
-            <MessageCircle className="w-4 h-4" />
+            <WhatsAppIcon className="w-4 h-4 fill-current" />
             <span>Discuss Your Project</span>
           </a>
         </div>

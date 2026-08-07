@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { MapPin, MessageCircle, ArrowUpRight } from 'lucide-react';
+import { WhatsAppIcon } from './WhatsAppIcon';
+import { MapPin, ArrowUpRight } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -124,7 +125,7 @@ export const Footer: React.FC = () => {
                 className="flex items-center gap-3 p-2.5 rounded-sm bg-white/5 hover:bg-white/10 text-white transition-colors border border-white/10 group"
               >
                 <div className="w-8 h-8 rounded bg-emerald-600/20 text-emerald-400 flex items-center justify-center">
-                  <MessageCircle className="w-4 h-4" />
+                  <WhatsAppIcon className="w-4 h-4 fill-current" />
                 </div>
                 <div className="flex flex-col">
                   <span className="text-xs text-gray-400">WhatsApp & Phone</span>

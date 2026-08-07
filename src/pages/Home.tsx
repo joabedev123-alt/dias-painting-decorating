@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { WhatsAppIcon } from '../components/WhatsAppIcon';
 import { 
   ArrowRight, 
   CheckCircle2, 
@@ -10,7 +11,6 @@ import {
   Layers, 
   Wrench,
   Clock, 
-  MessageCircle,
   ChevronRight,
   Eye
 } from 'lucide-react';
@@ -560,7 +560,7 @@ export const Home: React.FC = () => {
               rel="noopener noreferrer"
               className="w-full sm:w-auto bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-8 py-4 rounded-sm text-base transition-all shadow flex items-center justify-center gap-2"
             >
-              <MessageCircle className="w-5 h-5" />
+              <WhatsAppIcon className="w-5 h-5 fill-current" />
               <span>Chat on WhatsApp</span>
             </a>
           </div>

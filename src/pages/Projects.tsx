@@ -3,7 +3,8 @@ import { PageHero } from '../components/PageHero';
 import { PROJECTS_DATA, Project } from '../data/projectsData';
 import { ProjectModal } from '../components/ProjectModal';
 import { Link } from 'react-router-dom';
-import { Eye, ArrowRight, MessageCircle } from 'lucide-react';
+import { WhatsAppIcon } from '../components/WhatsAppIcon';
+import { Eye, ArrowRight } from 'lucide-react';
 
 type CategoryFilter = 'All' | 'Interior' | 'Exterior' | 'Residential' | 'Commercial' | 'Renovation';
 
@@ -143,7 +144,7 @@ export const Projects: React.FC = () => {
               rel="noopener noreferrer"
               className="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-3.5 rounded font-semibold text-sm transition-all shadow flex items-center gap-2"
             >
-              <MessageCircle className="w-4 h-4" />
+              <WhatsAppIcon className="w-4 h-4 fill-current" />
               <span>Chat on WhatsApp</span>
             </a>
           </div>

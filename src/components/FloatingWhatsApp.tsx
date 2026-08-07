@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { MessageCircle } from 'lucide-react';
+import { WhatsAppIcon } from './WhatsAppIcon';
 
 export const FloatingWhatsApp: React.FC = () => {
   const [isHovered, setIsHovered] = useState(false);
-  const whatsappUrl = "https://wa.me/447833779462?text=Hello%20Dias%20Painting%20%26%20Decorating%2C%20I%20would%20like%20to%20request%20a%20quote%20for%20my%20property.";
+  const whatsappUrl = "https://wa.me/447833779462?text=Olá%20Dias%20Painting%20%26%20Decorating%2C%20gostaria%20de%20solicitar%20um%20orçamento.";
 
   return (
     <div className="fixed bottom-6 right-6 z-50 flex items-center gap-3">
@@ -13,7 +13,7 @@ export const FloatingWhatsApp: React.FC = () => {
           isHovered ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-2'
         }`}
       >
-        <span>Chat with us on WhatsApp</span>
+        <span>Fale conosco pelo WhatsApp</span>
         <div className="w-2 h-2 bg-brand-dark rotate-45 -mr-4 ml-1 border-r border-t border-white/10"></div>
       </div>
 
@@ -24,13 +24,14 @@ export const FloatingWhatsApp: React.FC = () => {
         rel="noopener noreferrer"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
-        className="w-14 h-14 bg-emerald-500 hover:bg-emerald-600 text-white rounded-full flex items-center justify-center shadow-2xl transition-all duration-300 hover:scale-110 active:scale-95 focus:outline-none focus:ring-4 focus:ring-emerald-300 animate-pulse-subtle group"
-        aria-label="Chat with Dias Painting & Decorating on WhatsApp"
+        className="w-14 h-14 bg-[#25D366] hover:bg-[#20ba5a] text-white rounded-full flex items-center justify-center shadow-2xl transition-all duration-300 hover:scale-110 active:scale-95 focus:outline-none focus:ring-4 focus:ring-emerald-300 animate-pulse-subtle group"
+        aria-label="Fale com Dias Pintura & Decoração no WhatsApp"
       >
-        <MessageCircle className="w-7 h-7 fill-white/20 group-hover:scale-110 transition-transform" />
+        <WhatsAppIcon className="w-7 h-7 fill-white group-hover:scale-110 transition-transform" />
         <span className="absolute -top-1 -right-1 w-4 h-4 bg-amber-400 border-2 border-white rounded-full animate-ping" />
         <span className="absolute -top-1 -right-1 w-4 h-4 bg-amber-400 border-2 border-white rounded-full" />
       </a>
     </div>
   );
 };
+

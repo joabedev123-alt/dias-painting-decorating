@@ -1,7 +1,8 @@
 import React from 'react';
 import { PageHero } from '../components/PageHero';
 import { QuoteForm } from '../components/QuoteForm';
-import { MessageCircle, MapPin } from 'lucide-react';
+import { WhatsAppIcon } from '../components/WhatsAppIcon';
+import { MapPin } from 'lucide-react';
 
 export const Contact: React.FC = () => {
   return (
@@ -43,7 +44,7 @@ export const Contact: React.FC = () => {
                     className="flex items-start gap-4 p-4 rounded bg-white/5 hover:bg-white/10 transition-colors border border-white/10 group"
                   >
                     <div className="w-10 h-10 rounded bg-emerald-600/20 text-emerald-400 flex items-center justify-center shrink-0">
-                      <MessageCircle className="w-5 h-5" />
+                      <WhatsAppIcon className="w-5 h-5 fill-current" />
                     </div>
                     <div>
                       <span className="text-xs text-gray-400 block uppercase tracking-wider font-semibold">

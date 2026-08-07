@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, ArrowRight, Phone } from 'lucide-react';
+import { WhatsAppIcon } from './WhatsAppIcon';
+import { Menu, X, ArrowRight } from 'lucide-react';
 
 export const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -149,7 +150,7 @@ export const Header: React.FC = () => {
                 rel="noopener noreferrer"
                 className="w-full text-center bg-emerald-600 hover:bg-emerald-700 text-white px-5 py-3 rounded-sm font-medium text-base shadow-md flex items-center justify-center gap-2"
               >
-                <Phone className="w-4 h-4" />
+                <WhatsAppIcon className="w-4 h-4 fill-current" />
                 <span>WhatsApp: +44 7833 779462</span>
               </a>
             </div>

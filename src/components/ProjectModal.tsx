@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { X, MapPin, CheckCircle, ArrowRight, MessageCircle } from 'lucide-react';
+import { X, MapPin, CheckCircle, ArrowRight } from 'lucide-react';
+import { WhatsAppIcon } from './WhatsAppIcon';
 import { Project } from '../data/projectsData';
 import { Link } from 'react-router-dom';
 
@@ -136,7 +137,7 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) 
                 rel="noopener noreferrer"
                 className="w-full bg-emerald-600 hover:bg-emerald-700 text-white py-2.5 px-4 rounded font-medium text-sm flex items-center justify-center gap-2 shadow transition-colors"
               >
-                <MessageCircle className="w-4 h-4" />
+                <WhatsAppIcon className="w-4 h-4 fill-current" />
                 <span>Enquire About Similar Project</span>
               </a>
 

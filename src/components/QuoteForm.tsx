@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Send, CheckCircle2, MessageCircle, AlertCircle, Camera, ShieldCheck } from 'lucide-react';
+import { WhatsAppIcon } from './WhatsAppIcon';
+import { Send, CheckCircle2, AlertCircle, Camera, ShieldCheck } from 'lucide-react';
 
 export const QuoteForm: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -82,7 +83,7 @@ Hello! I would like to request a quote.`;
           
           <div className="p-6 bg-brand-light rounded border border-brand-border max-w-md mx-auto mb-6 text-left">
             <h4 className="text-sm font-semibold text-brand-dark mb-2 flex items-center gap-2">
-              <MessageCircle className="w-4 h-4 text-emerald-600" />
+              <WhatsAppIcon className="w-4 h-4 text-emerald-600 fill-current" />
               Instant WhatsApp Option:
             </h4>
             <p className="text-xs text-gray-600 mb-4">
@@ -94,7 +95,7 @@ Hello! I would like to request a quote.`;
               rel="noopener noreferrer"
               className="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-medium py-3 px-4 rounded text-sm flex items-center justify-center gap-2 shadow transition-all"
             >
-              <MessageCircle className="w-4 h-4" />
+              <WhatsAppIcon className="w-4 h-4 fill-current" />
               <span>Send This Request Directly to WhatsApp</span>
             </a>
           </div>
@@ -349,7 +350,7 @@ Hello! I would like to request a quote.`;
               rel="noopener noreferrer"
               className="w-full sm:w-auto bg-emerald-600 hover:bg-emerald-700 text-white font-medium px-6 py-3.5 rounded text-sm flex items-center justify-center gap-2 shadow transition-all"
             >
-              <MessageCircle className="w-4 h-4" />
+              <WhatsAppIcon className="w-4 h-4 fill-current" />
               <span>Or Send via WhatsApp</span>
             </a>
           </div>

@@ -82,7 +82,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Landlord & property manager pre-tenancy refreshes',
       'Clean & compliant working environment'
     ],
-    image: '/Fotos 02/WhatsApp Image 2026-08-05 at 19.19.37.jpeg'
+    image: '/Fotos 02/WhatsApp Image 2026-08-05 at 19.20.12 (2).jpeg'
   },
   {
     id: 'surface-preparation',

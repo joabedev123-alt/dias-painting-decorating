@@ -146,7 +146,7 @@ export const Home: React.FC = () => {
             <div className="lg:col-span-6 relative">
               <div className="relative z-10 rounded-md overflow-hidden shadow-2xl border border-brand-border">
                 <img 
-                  src="/Fotos 02/WhatsApp Image 2026-08-05 at 19.18.43.jpeg" 
+                  src="/Fotos 02/WhatsApp Image 2026-08-05 at 19.20.11 (2).jpeg" 
                   alt="Beautiful interior decorating in London" 
                   className="w-full h-[400px] object-cover"
                 />
@@ -155,7 +155,7 @@ export const Home: React.FC = () => {
               {/* Secondary Overlapping Image */}
               <div className="hidden sm:block absolute -bottom-8 -right-8 z-20 w-3/5 rounded-md overflow-hidden shadow-2xl border-4 border-white">
                 <img 
-                  src="/Fotos 01/WhatsApp Image 2026-08-05 at 19.01.13.jpeg" 
+                  src="/Fotos 02/WhatsApp Image 2026-08-05 at 19.20.10.jpeg" 
                   alt="Luxury wallpaper installation detail" 
                   className="w-full h-[240px] object-cover"
                 />

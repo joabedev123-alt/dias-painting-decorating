@@ -79,7 +79,7 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) 
 
             {/* Gallery thumbnails */}
             {project.gallery && project.gallery.length > 1 && (
-              <div className="flex items-center gap-3 mt-4 overflow-x-auto pb-2">
+              <div className="flex items-center gap-3 mt-4 overflow-x-auto no-scrollbar touch-scroll pb-2">
                 {project.gallery.map((img, idx) => (
                   <button
                     key={idx}

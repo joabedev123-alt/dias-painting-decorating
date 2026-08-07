@@ -124,7 +124,8 @@ export const Header: React.FC = () => {
               <Link
                 key={link.path}
                 to={link.path}
-                className={`px-4 py-3 rounded-sm text-base font-medium transition-colors flex items-center justify-between ${
+                onClick={() => setMobileMenuOpen(false)}
+                className={`px-4 py-3.5 rounded-sm text-base font-medium transition-colors flex items-center justify-between ${
                   isActive(link.path)
                     ? 'bg-white/10 text-brand-accent font-semibold border-l-4 border-brand-accent'
                     : 'text-gray-200 hover:bg-white/5 hover:text-white'
@@ -138,7 +139,8 @@ export const Header: React.FC = () => {
             <div className="pt-4 mt-2 border-t border-white/10 flex flex-col gap-3">
               <Link
                 to="/contact"
-                className="w-full text-center bg-brand-accent hover:bg-brand-accent-hover text-brand-dark px-5 py-3 rounded-sm font-medium text-base shadow-md flex items-center justify-center gap-2"
+                onClick={() => setMobileMenuOpen(false)}
+                className="w-full text-center bg-brand-accent hover:bg-brand-accent-hover text-brand-dark px-5 py-3.5 rounded-sm font-medium text-base shadow-md flex items-center justify-center gap-2"
               >
                 <span>Get a Free Quote</span>
                 <ArrowRight className="w-4 h-4" />

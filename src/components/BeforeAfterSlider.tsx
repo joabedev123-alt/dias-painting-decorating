@@ -22,7 +22,19 @@ export const BeforeAfterSlider: React.FC<BeforeAfterSliderProps> = ({
 }) => {
   const [sliderPosition, setSliderPosition] = useState(50);
   const [isDragging, setIsDragging] = useState(false);
+  const [containerWidth, setContainerWidth] = useState<number>(0);
   const containerRef = useRef<HTMLDivElement>(null);
+
+  React.useEffect(() => {
+    const updateWidth = () => {
+      if (containerRef.current) {
+        setContainerWidth(containerRef.current.clientWidth);
+      }
+    };
+    updateWidth();
+    window.addEventListener('resize', updateWidth);
+    return () => window.removeEventListener('resize', updateWidth);
+  }, []);
 
   const handleMove = useCallback((clientX: number) => {
     if (!containerRef.current) return;
@@ -96,7 +108,7 @@ export const BeforeAfterSlider: React.FC<BeforeAfterSliderProps> = ({
             src={beforeImage} 
             alt="Before preparation work" 
             className="absolute inset-0 w-full h-full object-cover max-w-none"
-            style={{ width: containerRef.current ? `${containerRef.current.clientWidth}px` : '100%' }}
+            style={{ width: containerWidth ? `${containerWidth}px` : '100%' }}
           />
           <div className="absolute top-3 left-3 sm:top-4 sm:left-4 bg-amber-900/80 text-amber-100 text-[11px] sm:text-xs font-semibold px-2.5 py-1 sm:px-3 sm:py-1.5 rounded backdrop-blur-md z-10 border border-amber-500/30">
             {beforeLabel}

@@ -11,7 +11,21 @@
     background-color: #FAF9F6;
     color: #16181C;
     overflow-x: hidden;
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
   }
+}
+
+/* Mobile & Touch Utilities */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.touch-scroll {
+  -webkit-overflow-scrolling: touch;
 }
 
 /* Custom scrollbar styling */

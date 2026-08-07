@@ -41,12 +41,12 @@ export const Projects: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           
           {/* Category Filter Pills */}
-          <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3 mb-12">
+          <div className="flex items-center sm:justify-center gap-2 sm:gap-3 mb-12 overflow-x-auto no-scrollbar touch-scroll pb-2 -mx-4 px-4 sm:mx-0 sm:px-0 sm:flex-wrap">
             {filterOptions.map((filter) => (
               <button
                 key={filter}
                 onClick={() => setActiveFilter(filter)}
-                className={`px-4 sm:px-5 py-2 rounded-full text-xs sm:text-sm font-medium transition-all duration-300 ${
+                className={`whitespace-nowrap px-4 sm:px-5 py-2.5 sm:py-2 rounded-full text-xs sm:text-sm font-medium transition-all duration-300 shrink-0 ${
                   activeFilter === filter
                     ? 'bg-brand-dark text-white shadow-md border border-brand-accent'
                     : 'bg-white text-gray-700 hover:bg-gray-100 border border-brand-border'

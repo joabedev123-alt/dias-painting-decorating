@@ -77,7 +77,7 @@ export const Home: React.FC = () => {
             </div>
 
             {/* Trust Indicators */}
-            <div className="pt-8 border-t border-white/15 grid grid-cols-3 gap-4 text-xs sm:text-sm font-medium text-gray-300">
+            <div className="pt-8 border-t border-white/15 grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 text-xs sm:text-sm font-medium text-gray-300">
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-brand-accent shrink-0" />
                 <span>Residential & Commercial</span>

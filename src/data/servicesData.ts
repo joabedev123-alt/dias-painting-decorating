@@ -67,7 +67,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Bedroom, living room, & dining room refurbishing',
       'Protection of furniture, carpets, & personal belongings'
     ],
-    image: '/Fotos 02/WhatsApp Image 2026-08-05 at 19.18.43.jpeg'
+    image: '/Fotos 02/WhatsApp Image 2026-08-05 at 19.18.42 (2).jpeg'
   },
   {
     id: 'commercial-decorating',
